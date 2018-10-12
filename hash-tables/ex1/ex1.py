@@ -17,4 +17,8 @@ def get_indices_of_item_weights(weights, limit):
 
 if __name__ == '__main__':
     # You can write code here to test your implementation using the Python repl
-    pass
+    print(get_indices_of_item_weights([9], 9))  # ()
+    print(get_indices_of_item_weights([4, 4], 8))  # (1, 0)
+    print(get_indices_of_item_weights([4, 6, 10, 15, 16], 21))  # (3, 1)
+    print(get_indices_of_item_weights(
+        [12, 6, 7, 14, 19, 3, 0, 25, 40], 7))  # (6, 2)
